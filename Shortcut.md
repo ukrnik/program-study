@@ -1,0 +1,1 @@
+[https://docs.emmet.io/cheat-sheet/](https://docs.emmet.io/cheat-sheet/) - каталог шоркатов для vs code
