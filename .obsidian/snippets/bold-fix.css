@@ -1,0 +1,5 @@
+/* Выделение жирным текстом в Obsidian */
+.markdown-preview-view strong,
+.cm-s-obsidian span.cm-strong {
+    font-weight: bold;
+}

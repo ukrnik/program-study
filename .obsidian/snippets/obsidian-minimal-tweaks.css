@@ -1,0 +1,158 @@
+
+/* Прозрачный статус бар */
+.status-bar:not(:hover) .status-bar-item {
+  opacity: 0.2;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Editing */
+.markdown-source-view.is-readable-line-width .CodeMirror {
+   max-width: 85%;
+}
+
+/* 
+Уменьшение размера шрифта, используемого для отображения номеров строк
+*/
+
+.CodeMirror-linenumber,
+.CodeMirror-linenumber
+{
+    font-family: var(--font-monospace) !important;
+    color: var(#808080) !important;
+    font-size: 100%;
+}
+.cm-formatting
+{
+    font-family: var(--font-monospace) !important;
+    color: var(#808080) !important;
+    font-size: 100%;
+}
+/*style to center text; activated by <p class="center">text</p> */
+.center {
+ text-align: center;
+}
+/* 
+Отображение названий файлов в боковом меню с переносами строки и без горизонтального скроллбара
+*/
+
+ .nav-folder-title, .nav-folder-title-content, 
+.nav-file-title, .nav-file-title-content {
+
+ max-width: 100%;
+
+}
+
+.nav-folder-title-content, .nav-file-title-content {
+
+ white-space: break-spaces;
+
+}
+.nav-folder-title-content, .nav-file-title-content {
+
+ white-space: break-spaces;
+
+}
+
+.callout[data-callout="bookmark"] {
+    --callout-color: 162, 162, 50;
+    --callout-icon: lucide-bookmark;
+  }
+.callout[data-callout="idea"] {
+    --callout-color: 243, 243, 128;
+    --callout-icon: lucide-lightbulb;
+  }
+
+
+/* Naked Embeds */
+.markdown-embed-title { display:none; }
+.markdown-preview-view .markdown-embed { border:none; padding:0; margin:0; }
+.markdown-preview-view .markdown-embed-content { max-height: unset;}
+.markdown-preview-view .markdown-embed-content>:first-child { margin-top: 0; }
+.markdown-preview-view .markdown-embed-content>:last-child { margin-bottom: 0; }
+
+
+.callout {
+  border-radius: 8px;
+  border-width: 2px;
+}
+
+/*
+author: sailKite
+source: https://discord.com/channels/686053708261228577/702656734631821413/1168178314318458980
+*/
+
+.container#calendar-container .calendar {
+  & > thead > tr:first-of-type {
+    & > th:nth-child(1) {
+      color: red;
+    }
+    & > th:nth-child(2) {
+      color: orange;
+    }
+    & > th:nth-child(3) {
+      color: yellow;
+    }
+    & > th:nth-child(4) {
+      color: green;
+    }
+    & > th:nth-child(5) {
+      color: blue;
+    }
+    & > th:nth-child(6) {
+      color: indigo;
+    }
+    & > th:nth-child(7) {
+      color: violet;
+    }
+  }
+}
+
+/* Image zoom  */
+/* Credits: kepano, https://forum.obsidian.md/t/image-zoom-click-hold-to-expand-images/5164 */
+/* Changes: Limit zoom to 100% of image size */
+/* Todo: Zoom on Bigger Images should be reduced to meet viewport size */
+
+
+.view-content img {
+  /* width:auto; */
+  cursor:zoom-in;}
+
+.view-content img:active {
+  cursor:zoom-out;
+}
+.view-content .markdown-preview-view img[referrerpolicy='no-referrer']:active,
+.view-content .image-embed:active {
+  background:var(--background-primary);
+  cursor:zoom-out;
+  display:block;
+  z-index:200;
+  position:fixed;
+  max-height:100%;
+  max-width:100%;
+  height:auto;
+  width:auto;
+  object-fit:contain;
+  margin:0 auto;
+  text-align:center;
+  padding:0;
+  left:0;
+  right:0;
+  top: 0%;
+  bottom:0;
+}
+.view-content .image-embed:active img {
+  top:50%;
+  transform:translateY(-50%);
+  padding:0;
+  margin:0 auto;
+  width: auto;
+  height: auto;
+  max-height:100vh;
+  object-fit:contain;
+  left:0;
+  right:0;
+  bottom:0;
+  position:absolute;
+  opacity:1;
+}
+

@@ -1,0 +1,294 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Files/Daily Notes/02.01.2025.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02.01.2025"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bd66bb240c9cf9ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "f66591b1c61b780e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "514c7fee4ae8bee8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "29869f75d59bef91",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          },
+          {
+            "id": "ed32621e4d3339f9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "addeve",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 288.5
+  },
+  "right": {
+    "id": "31718f2ac592a625",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac942629b2f33d7f",
+        "type": "tabs",
+        "dimension": 61.88888888888889,
+        "children": [
+          {
+            "id": "a4990cf0800924da",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HTML/HTML тег <ul>, <ol> и элементы списков.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для HTML тег <ul>, <ol> и элементы списков"
+            }
+          },
+          {
+            "id": "5ca6284263491a04",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HTML/HTML тег <ul>, <ol> и элементы списков.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из HTML тег <ul>, <ol> и элементы списков"
+            }
+          },
+          {
+            "id": "601f995166f6ff57",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "6c1661551d11ccba",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "66d8679e07414d3d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
+          },
+          {
+            "id": "132e8ac2e7ddc1bc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_Files/Daily Notes/02.01.2025.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура 02.01.2025"
+            }
+          },
+          {
+            "id": "353f85ae3db817bd",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Програмирование/HTML/теги и атрибуты.md"
+              },
+              "icon": "lucide-info",
+              "title": "Свойства файла для теги и атрибуты"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "8c0bad601b5865f3",
+        "type": "tabs",
+        "dimension": 38.111111111111114,
+        "children": [
+          {
+            "id": "4da61e033d02a3bf",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 311.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Создать новую базу": false,
+      "graph:Граф": false,
+      "switcher:Меню быстрого перехода": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "audio-recorder:Начать/остановить запись": false,
+      "workspaces:Пространства": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "improved-random-note:Open improved random note": false,
+      "obsidian-kanban:Создать новую доску": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-stille:Toggle Stille": false,
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
+      "templater-obsidian:Templater": false,
+      "callout-manager:Insert Callout": false,
+      "obsidian-projects:Open projects": false,
+      "homepage:Open homepage": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false,
+      "markwhen:Create new Markwhen file": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "_Files/Daily Notes/obsi_tasks.md",
+    "_Files/Daily Notes/23.11.2024.md",
+    "Home.md",
+    "CSS/Flexbox.md",
+    "Shortcut.md",
+    "_Files/Templater/Weekly Note Template Final.md",
+    "_Files/Templater/Weekly Note Template.md",
+    "_Files/Templater/Daily Note Template.md",
+    "_Files/Templater/Распространение событий.md",
+    "_Files/Templater/Шаблон книги.md",
+    "_Files/Templater/Шаблон для дневника.md",
+    "_Files/Templater/Фильм, сериал.md",
+    "_Files/Templater/Метод.md",
+    "_Files/Templater/Мозговой штурм.md",
+    "_Files/Templater/Конспект курса, лекции.md",
+    "_Files/Templater/Дневник.md",
+    "_Files/Templater/Без названия.md",
+    "CSS/_CSS.md",
+    "Програмирование.md",
+    "VS Code",
+    "Проекты/Соединение с хостингом.md",
+    "Проекты",
+    "Drawing 2025-10-22 16.46.56.excalidraw.md",
+    "HTML/_HTML.md",
+    "HTML/Без названия.md",
+    "HTML/HTML тег <button> и атрибуты кнопок.md",
+    "HTML/HTML тег <a> и атрибуты ссылок.md",
+    "HTML/теги и атрибуты.md",
+    "_Files/Медиа/Снимок экрана 2024-08-29 в 08.30.11.png",
+    "_Files/Медиа/Снимок экрана 2024-12-31 в 00.23.14.png",
+    "_Files/Медиа/l8r4ic2gedi0j9obd7ix.jpg",
+    "_Files/Медиа/JsEngine.gif",
+    "_Files/Медиа/JsModules.jpg",
+    "_Files/Медиа/Pasted image 20240826015445.png",
+    "_Files/Медиа/Pasted image 20240908041321.png",
+    "_Files/Медиа/Pasted image 20240908041353.png",
+    "_Files/Медиа/Pasted image 20241130001156.png",
+    "_Files/Медиа/Pasted image 20241130024045.png",
+    "СТАРАЯ СТРУКТУРА/Модуль 3/Лекции",
+    "СТАРАЯ СТРУКТУРА/Модуль 4/Лекции",
+    "СТАРАЯ СТРУКТУРА/Модуль 9",
+    "СТАРАЯ СТРУКТУРА/Модуль 8",
+    "СТАРАЯ СТРУКТУРА/Модуль 7",
+    "СТАРАЯ СТРУКТУРА/Модуль 6",
+    "СТАРАЯ СТРУКТУРА/Модуль 5",
+    "СТАРАЯ СТРУКТУРА/Модуль 4",
+    "Програмирование/Без названия.canvas",
+    "Веломастерская/Без названия.canvas",
+    "Без названия.canvas",
+    "Go_IT/JavaScript/Модуль 3/Лекция 3.1/Без названия.canvas"
+  ]
+}

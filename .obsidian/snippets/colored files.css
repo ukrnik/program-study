@@ -1,0 +1,46 @@
+/* 
+Выделение разных типов файлов разным цветом
+*/
+
+
+
+
+.nav-file-title[data-path$=".docx" ] .nav-file-title-content {
+  color: rgb(105, 157, 255);
+}
+
+.nav-file-title[data-path$=".xls" ] .nav-file-title-content {
+  color: rgb(5, 157, 255);
+}
+
+.nav-file-title[data-path$=".zip" ] .nav-file-title-content {
+  color: rgb(5, 157, 255);
+}
+ 
+.nav-file-title[data-path$=".pptx"] .nav-file-title-content {
+  color: rgb(255, 171, 88);
+}
+ 
+.nav-file-title[data-path$=".pdf"] .nav-file-title-content {
+  color: rgb(255, 116, 116);
+}
+ 
+.nav-file-title[data-path$=".mp3"] .nav-file-title-content {
+  color: rgb(35, 177, 47);
+}
+ 
+.nav-file-title[data-path$=".mp4"] .nav-file-title-content {
+  color: rgb(53, 153, 184);
+}
+ 
+.nav-file-title[data-path$=".png"] .nav-file-title-content,
+.nav-file-title[data-path $= ".jpg"] .nav-file-title-content,
+.nav-file-title[data-path $= ".svg"] .nav-file-title-content,
+.nav-file-title[data-path $= ".jpeg"] .nav-file-title-content {
+  color: rgb(212, 207, 141);
+}
+ 
+.nav-file-title[data-path$=".py"] .nav-file-title-content {
+  color: rgb(254, 216, 69);
+}
+ 

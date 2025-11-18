@@ -1,0 +1,27 @@
+{
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "accentColor": "",
+  "nativeMenus": true,
+  "textFontFamily": "Circe",
+  "monospaceFontFamily": "",
+  "translucency": true,
+  "baseFontSizeAction": false,
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "bold-fix",
+    "Safari Tabs",
+    "canvas-candy",
+    "pro-callouts",
+    "properties",
+    "MCL Wide Views",
+    "MCL Multi Column",
+    "MCL Gallery Cards",
+    "extended-colorschemes",
+    "dashboard-ReadLineLength",
+    "dashboard",
+    "colored files",
+    "banners"
+  ],
+  "showRibbon": true
+}

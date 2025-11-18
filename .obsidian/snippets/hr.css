@@ -1,0 +1,23 @@
+.markdown-preview-view hr,
+.markdown-source-view hr {
+    margin-top: 45px !important;  /* Увеличение отступа сверху */
+    margin-bottom: 45px !important; /* Увеличение отступа снизу */
+    height: 2px; /* Увеличение толщины линии */
+    background-color: rgba(255, 255, 255, 0.5); /* Цвет линии */
+    border: none;
+}
+
+img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+pre img {
+    max-width: 24px !important;
+    max-height: 24px !important;
+}
+
+.markdown-source-view img {
+    max-width: 24px !important;
+    max-height: 24px !important;
+}

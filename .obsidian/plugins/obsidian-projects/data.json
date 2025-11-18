@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Библиотека/Книги",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fitStyle": "contain",
+            "coverField": "Локальная_обложка",
+            "includeFields": [
+              "Автор",
+              "Статус",
+              "name"
+            ],
+            "cardWidth": 250
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "28484ef2-0dc2-4332-adec-7796dbe9bdd6",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "id": "f63275a4-d1a0-4114-b6b8-29609a5fda66",
+      "name": "Книги"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "monday"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}
